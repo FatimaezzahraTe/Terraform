@@ -50,7 +50,7 @@
     </style>
 
     <p> 
-        Hi, I am <strong></strong>
+        Hi, I am <strong>Fatimaezzahra</strong>
         <br>
         I have deployed this webpage on the AWS cloud using Terraform.
         <br>
