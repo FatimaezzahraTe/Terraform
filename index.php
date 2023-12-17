@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+	<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -7,6 +8,8 @@
 	<title>Webpage</title>
 </head>
 <body>
+	<style>
+		
 	<style>
 		:root {
 			--penguin-size: 300px;
@@ -216,6 +219,15 @@
 			position: absolute;
 		}
 	</style>
+		
+	</style>
+
+	<?php
+		// Balises PHP pour la partie dynamique
+		$yourName = "Fatimaezzahra";
+		$deploymentInfo = "I have deployed this webpage on the AWS cloud using Terraform.";
+	?>
+
 	<div class="penguin">
 		<div class="penguin-bottom">
 			<div class="right-hand"></div>
@@ -250,12 +262,11 @@
 	</style>
 
 	<p> 
-		Hi, I am <strong>Fatimaezzahra</strong>
+		Hi, I am <strong><?php echo $yourName; ?></strong>
 		<br>
-		I have deployed this webpage on the AWS cloud using Terraform.
-		<br>
+		<?php echo $deploymentInfo; ?>
 	</p>
 
-	<center><img src="Profile.jpg" style="width: 425px; height: 285px; align-content: center;"></center>
+	<center><img src="/Profile.jpg" style="width: 425px; height: 285px; align-content: center;"></center>
 </body>
 </html>
